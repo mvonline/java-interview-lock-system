@@ -1,5 +1,7 @@
 # Internal Fund Transfer Service
 
+[![Java CI with Maven](https://github.com/mvonline/java-interview-lock-system/actions/workflows/maven.yml/badge.svg)](https://github.com/mvonline/java-interview-lock-system/actions/workflows/maven.yml)
+
 A robust, high-throughput fund transfer microservice built with Java 17, Spring Boot 3, and Redis. This service implements a multi-layered concurrency control strategy to ensure data integrity and prevent race conditions.
 
 ## 🚀 Features
