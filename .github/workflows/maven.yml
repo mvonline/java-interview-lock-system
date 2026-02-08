@@ -14,9 +14,9 @@ jobs:
       postgres:
         image: postgres:15-alpine
         env:
-          POSTGRES_DB: fundtransfer
-          POSTGRES_USER: user
-          POSTGRES_PASSWORD: password
+          POSTGRES_DB: fund_transfer
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
         ports:
           - 5432:5432
         options: >-
@@ -50,9 +50,9 @@ jobs:
       env:
         DB_HOST: localhost
         DB_PORT: 5432
-        DB_NAME: fundtransfer
-        DB_USER: user
-        DB_PASS: password
+        DB_NAME: fund_transfer
+        DB_USER: postgres
+        DB_PASSWORD: postgres
         REDIS_HOST: localhost
         REDIS_PORT: 6379
 
